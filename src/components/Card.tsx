@@ -18,8 +18,8 @@ const Card: React.FC<Props> = ({info}) => {
         <div className="heading">
           {imagePath && <img src={imagePath}></img>}
           <div className="nameInfo">
-            <span>{name}</span>
-            <span>{username}</span>
+            <span className="name">{name}</span>
+            <span className="username">{username}</span>
           </div>
         </div>
         <div className="review">
