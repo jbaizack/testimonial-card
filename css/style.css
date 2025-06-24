@@ -8,71 +8,41 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   min-height: 100vh;
-
+  font-size: 16px;
+  font-weight: 400; 
+  line-height: 24px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   background-color: #D2D6DB;
 }
 
-.container {
-  background-color: red;
-  margin-top: 200px;
+.wrapper {
   display: flex; 
   justify-content: center;
-  width: 100%;
-  max-width: 340px;
-
-  
-  box-shadow: #777;
+  background-color: aquamarine;
+  margin-top: 200px;
 }
 
-.card {
-  background-color: white;
-  width: 340px;
-  padding: 24px;
+.container {
   display: flex; 
   flex-direction: column;
+  width: 340px;
+  background-color: aliceblue;
+  padding: 24px;
   border-radius: 8px;
-  font-size: 16px; 
   gap: 16px;
 }
 
-.card__author {
+.heading {
   display: flex; 
-  flex-direction: row;
   gap: 16px; 
-  align-content: center;
 }
-
-img {
-  width: 48px; 
-  height: 48px; 
-  border-radius: 50%;
-}
-.name {
+.nameInfo { 
   display: flex; 
-  flex-direction: column;
+  flex-direction: column
 }
-
-
-
-
-* {
-  box-sizing: border-box;
+img {
+  height: 48px; 
+  width: 48px; 
 }
-
-.credits {
-  color: #777;
-  position: fixed;
-  bottom: 24px;
-  left: 24px;
-  font-size: 11px;
-  text-align: center;
-}
-
-.credits a {
-  color: #000;
-  font-weight: bold;
-}
-
